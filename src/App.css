@@ -1,0 +1,38 @@
+.container {
+  /* 水平置中 */
+  display: flex;
+  justify-content: center;    
+  /* 垂直置中 */
+  align-items: center;     
+  flex-wrap: wrap;
+}
+
+.ComboBox{
+  width: 1000px;
+  /* 水平置中 */
+  justify-content: center;    
+  /* 垂直置中 */
+  align-items: center;    
+  margin: 30px 0px 30px 0px; 
+}
+
+.Table{
+  /* 水平置中 */
+  justify-content: center;    
+  /* 垂直置中 */
+  align-items: center;     
+  margin: auto;
+}
+
+.Button{
+  width: 700px;
+  display: flex;
+  /* 水平置中 */
+  justify-content: center;    
+  /* 垂直置中 */
+  align-items: center;     
+}
+.Box{
+  margin-left: 60px;
+  margin-right: 60px;
+}
